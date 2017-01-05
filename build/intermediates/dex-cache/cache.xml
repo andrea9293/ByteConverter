@@ -2,166 +2,247 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.1.0_fec1aa6733e73d65250ae326cfe8d2c447d371be.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-design-25.1.0_8760f20c0d0258626d856503ef6c551f4c38bbfb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.8.0_6dcec2f16969eeb51f225abd65917b0721b4abf7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appindexing-9.8.0_34156859629d5d018b56d8065c9c101007992fe8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.1.0_1a6ef6a03a88398df7af69a4ec5fb8f0b7c77b05.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.1.0_ea93dfede5370985ad73d942a661c847ef0c69e6.jar" />
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_ea93dfede5370985ad73d942a661c847ef0c69e6/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.1.0_a33ac9674f9b0bdab83db8b25983d5b96b6cc7ff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/andrea/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/support-annotations-25.1.0_e7007fc675ba5af6a294cec2ecf24e269eeef8bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-25.1.0_f41512a7617ba8e1493727a431dd281119bd98a0.jar" />
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_f41512a7617ba8e1493727a431dd281119bd98a0/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_27009025c9bd0d2b03f193dd1153676b3a5961b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_95170125642b62233bb338445251363de0878eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_e1349c86f926208f8d08e896d82f65108d44d56e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_8760f20c0d0258626d856503ef6c551f4c38bbfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.1.0_cc18abcfd5995cbb42deca8dd1749e4ea8211827.jar" />
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_cc18abcfd5995cbb42deca8dd1749e4ea8211827/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.1.0_91e23b0bcc87ad4acdc55ff6a99edd920dadba04.jar" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_a33ac9674f9b0bdab83db8b25983d5b96b6cc7ff/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.1.0_c25d3c101571d81de7423d703657c101da487888.jar" />
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_1bf21eaba252939c8b2437bd8f51753ce6d64ab3/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_faa8843f6cf4e5695cacac291413decee3c699bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_8e6629cc5eb1ddb0576860d2a3098445d4040845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_e7007fc675ba5af6a294cec2ecf24e269eeef8bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_fcdba63059aba9ff79c85bd03428f0ac55bdebc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.1.0_f6dfc7b82843011efaaef43be9d747b5c7740371.jar" />
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_f6dfc7b82843011efaaef43be9d747b5c7740371/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_091bb7a843120ce68f2cec69cac93c9cd8d35356/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_6d3d2d5ba9b49a437d5a84a4f2ce87ce1d623f34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.1.0_e2613616b9f984934386095ebf4acaa17f3a67a5.jar" />
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_e2613616b9f984934386095ebf4acaa17f3a67a5/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_ae1e880c2a33ec35b3776ce275b1e296e21ae411/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_10dd6e8b3ae1461208a2d84ad69330c77bb15c26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6795287f843ab028561f02b97f8e6606945016b3">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c39f95689e4e92e669f8a8638ac2195aaa41599d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_d7e7d4f9ef1ab466e543c67ce1654a8c29b7b8d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_fec1aa6733e73d65250ae326cfe8d2c447d371be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_1a6ef6a03a88398df7af69a4ec5fb8f0b7c77b05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.android.support-transition-25.1.0_abde092058be86de9b8d619bc872462ef35837d3.jar" />
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_abde092058be86de9b8d619bc872462ef35837d3/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.8.0_a4dc2d74f40f933b570911de3bdac3a1dfea5c2a.jar" />
+        sha1="2b24beb1f6cb3a941b531271ff8459c570e91624">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c42fb926d4a1a381ac6927a8ca29039089e47c3f/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.8.0_393475f107d4b99d8bc1e6741d2fad3cb948da2a.jar" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_91e23b0bcc87ad4acdc55ff6a99edd920dadba04/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.8.0_ba4aeadf2c021830e4bc36ace721484a0e3b4052.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_c25d3c101571d81de7423d703657c101da487888/classes.dex" />
     </item>
 
 </items>
