@@ -54,27 +54,28 @@
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:text="FROM"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="87dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="66dp"
         android:id="@+id/spinner_from"
         android:spinnerMode="dialog"
         android:entries="@array/spinner_elements"
         android:prompt="@string/spinner_prompt1"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/switchButton"
+        android:layout_toLeftOf="@+id/switchButton" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -83,10 +84,11 @@
         android:spinnerMode="dialog"
         android:entries="@array/spinner_elements"
         android:prompt="@string/spinner_prompt2"
-        android:layout_above="@+id/textView2"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="46dp" />
+        android:layout_toLeftOf="@+id/switchButton"
+        android:layout_toStartOf="@+id/switchButton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -94,20 +96,30 @@
         android:id="@+id/textView4"
         android:textSize="18sp"
         android:text="TO"
-        android:layout_alignBottom="@+id/spinner_to"
+        android:layout_above="@+id/spinner_to"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="31dp" />
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text="FROM"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:textSize="18sp"
-        android:layout_alignBottom="@+id/spinner_from"
+        app:srcCompat="@mipmap/switch_valori"
+        android:id="@+id/switchButton"
+        android:background="@android:color/transparent"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_below="@+id/spinner_from"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_below="@+id/spinner_to"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="31dp" />
+        android:layout_marginTop="19dp" />
 
 </RelativeLayout>

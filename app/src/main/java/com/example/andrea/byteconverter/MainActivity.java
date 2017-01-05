@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,6 +56,18 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener((OnNavigationItemSelectedListener) this);
 
+        final Spinner spinner_from = (Spinner) findViewById(R.id.spinner_from);
+        final Spinner spinner_to= (Spinner) findViewById(R.id.spinner_to);
+
+        ImageButton switch_val = (ImageButton) findViewById(R.id.switchButton);
+        switch_val.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Integer tmp=spinner_to.getSelectedItemPosition();
+                spinner_to.setSelection(spinner_from.getSelectedItemPosition());
+                spinner_from.setSelection(tmp);
+            }
+        });
+
 
         final TextView text2 = (TextView) findViewById(R.id.textView2);
         final EditText text = (EditText) findViewById(R.id.editText);
@@ -66,8 +79,8 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
                 imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
 
                 //preleva l'indice degli spinner
-                Spinner spinner_from = (Spinner) findViewById(R.id.spinner_from);
-                Spinner spinner_to= (Spinner) findViewById(R.id.spinner_to);
+                /*Spinner spinner_from = (Spinner) findViewById(R.id.spinner_from);
+                Spinner spinner_to= (Spinner) findViewById(R.id.spinner_to);*/
                 Integer index_f=spinner_from.getSelectedItemPosition();
                 Integer index_t=spinner_to.getSelectedItemPosition();
 
@@ -249,9 +262,9 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
             CharSequence text = "Thanks to donate :D";
             toast_p(text);
             startActivity(browserIntent);
-        } else if (id == R.id.nav_send) {
+        } /*else if (id == R.id.nav_send) {
 
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
