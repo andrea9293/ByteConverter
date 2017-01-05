@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.andrea.byteconverter">
+    package="com.andrea.byteconverter">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.andrea.byteconverter.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,7 +27,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.andrea.byteconverter.SettingsActivity"
             android:label="@string/title_activity_settings" />
     </application>
 

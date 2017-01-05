@@ -1,4 +1,4 @@
-package com.example.andrea.byteconverter;
+package com.andrea.byteconverter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,7 +15,6 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -25,6 +24,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.andrea.byteconverter.R;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Intent settings = new Intent( this, SettingsActivity.class );
-            settings.putExtra( SettingsActivity.EXTRA_SHOW_FRAGMENT, "com.example.andrea.byteconverter.SettingsActivity$GeneralPreferenceFragment" );
+            settings.putExtra( SettingsActivity.EXTRA_SHOW_FRAGMENT, "com.andrea.byteconverter.SettingsActivity$GeneralPreferenceFragment" );
             settings.putExtra( SettingsActivity.EXTRA_NO_HEADERS, true );
 
             //Intent settings = new Intent(MainActivity.this, SettingsActivity.class);
@@ -254,7 +254,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         } else*/
         if (id == R.id.nav_manage) {
             Intent settings = new Intent( this, SettingsActivity.class );
-            settings.putExtra( SettingsActivity.EXTRA_SHOW_FRAGMENT, "com.example.andrea.byteconverter.SettingsActivity$GeneralPreferenceFragment" );
+            settings.putExtra( SettingsActivity.EXTRA_SHOW_FRAGMENT, "com.andrea.byteconverter.SettingsActivity$GeneralPreferenceFragment" );
             settings.putExtra( SettingsActivity.EXTRA_NO_HEADERS, true );
             startActivity(settings);
         } else if (id == R.id.nav_donate) {

@@ -1,4 +1,4 @@
-package com.example.andrea.byteconverter;
+package com.andrea.byteconverter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

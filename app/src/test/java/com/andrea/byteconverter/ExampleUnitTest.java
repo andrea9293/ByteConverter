@@ -1,4 +1,4 @@
-package com.example.andrea.byteconverter;
+package com.andrea.byteconverter;
 
 import org.junit.Test;
 
