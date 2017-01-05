@@ -103,9 +103,8 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         return isPr;
     }
 
-    public void toast_p (){
+    public void toast_p (CharSequence text){
         Context context = getApplicationContext();
-        CharSequence text = "if this is not the result expected, try to turn on more precision in settings ;)";
         int duration = Toast.LENGTH_LONG;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -203,12 +202,12 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         }
     }
 
-    @Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
-    }
+    }*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -247,6 +246,8 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
             startActivity(settings);
         } else if (id == R.id.nav_donate) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.paypal.me/AndreaBravaccino"));
+            CharSequence text = "Thanks to donate :D";
+            toast_p(text);
             startActivity(browserIntent);
         } else if (id == R.id.nav_send) {
 
