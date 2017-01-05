@@ -245,8 +245,9 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
             settings.putExtra( SettingsActivity.EXTRA_SHOW_FRAGMENT, "com.example.andrea.byteconverter.SettingsActivity$GeneralPreferenceFragment" );
             settings.putExtra( SettingsActivity.EXTRA_NO_HEADERS, true );
             startActivity(settings);
-        } else if (id == R.id.nav_share) {
-
+        } else if (id == R.id.nav_donate) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.paypal.me/AndreaBravaccino"));
+            startActivity(browserIntent);
         } else if (id == R.id.nav_send) {
 
         }
