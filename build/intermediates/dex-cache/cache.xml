@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6795287f843ab028561f02b97f8e6606945016b3">
+        sha1="d72af95a646872a5f9ba489b636da4324d21213a">
         <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c39f95689e4e92e669f8a8638ac2195aaa41599d/classes.dex" />
     </item>
     <item
@@ -223,7 +223,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2b24beb1f6cb3a941b531271ff8459c570e91624">
+        sha1="48eabe379c4403c0fa7f0548ee57e083ba1652cb">
         <dex dex="/home/andrea/StudioProjects/ByteConverter/ByteConverter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c42fb926d4a1a381ac6927a8ca29039089e47c3f/classes.dex" />
     </item>
     <item
