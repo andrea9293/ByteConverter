@@ -26,10 +26,11 @@
                 android:id="@+id/nav_donate"
                 android:icon="@mipmap/paypal_icon"
                 android:title="Donate" />
-          <!--  <item
+         <!--   <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="More apps" /> -->
+                android:icon="@mipmap/paypal_icon"
+                android:onClick="onUpgradeAppButtonClicked"
+                android:title="Remove ads" /> -->
         </menu>
     </item>
 
