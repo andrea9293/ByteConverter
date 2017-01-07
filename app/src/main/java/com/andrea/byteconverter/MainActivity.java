@@ -45,8 +45,6 @@ import com.andrea.byteconverter.util.IabResult;
 import com.andrea.byteconverter.util.Inventory;
 import com.andrea.byteconverter.util.Purchase;
 
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity implements OnNavigationItemSelectedListener {
@@ -63,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
     static final int RC_REQUEST = 10001; // (arbitrary) request code for the purchase flow
     IabHelper mHelper;
     static final String TAG = "ByteConverter";
+    //AdView mAdView = (AdView) findViewById(R.id.adView);
     // Provides purchase notification while this app is running
     IabBroadcastReceiver mBroadcastReceiver;
 
@@ -148,16 +147,27 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
 
         final TextView text2 = (TextView) findViewById(R.id.textView2);
         final EditText text = (EditText) findViewById(R.id.editText);
+       /* text.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                if (!mIsPremium) {
+                    AdView mAdView = (AdView) findViewById(R.id.adView);
+                    mAdView.setVisibility(View.GONE);
+                }
+            }
+        });*/
+
         Button bottone = (Button) findViewById(R.id.button);
         bottone.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                //nasconde la tastiera
+                //nasconde la tastiera e mostra la pubblicità
                 InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+                /*if (!mIsPremium){
+                    AdView mAdView = (AdView) findViewById(R.id.adView);
+                    mAdView.setVisibility(View.VISIBLE);
+                }*/
 
                 //preleva l'indice degli spinner
-                /*Spinner spinner_from = (Spinner) findViewById(R.id.spinner_from);
-                Spinner spinner_to= (Spinner) findViewById(R.id.spinner_to);*/
                 Integer index_f=spinner_from.getSelectedItemPosition();
                 Integer index_t=spinner_to.getSelectedItemPosition();
 
@@ -179,16 +189,9 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
             }
         });
 
-
-
-
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-        //admob
-        System.out.println(mIsPremium + " prova");
-
-
     }
 
     //metodi per in app
@@ -446,7 +449,6 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
     }
 
     //funzioni per drawer
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -478,8 +480,6 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
 
         return super.onOptionsItemSelected(item);
     }
-
-
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

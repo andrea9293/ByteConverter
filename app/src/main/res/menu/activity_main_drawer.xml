@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="none">
         <!--<item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
@@ -24,7 +24,7 @@
         <menu>
             <item
                 android:id="@+id/nav_donate"
-                android:icon="@mipmap/paypal_icon"
+                android:icon="@mipmap/donate"
                 android:title="Donate" />
          <!--   <item
                 android:id="@+id/nav_send"
