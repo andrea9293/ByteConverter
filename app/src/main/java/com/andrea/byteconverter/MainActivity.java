@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        String base64EncodedPublicKey="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgDxN2fgWiMNR3d/cP8Y0MHVU/wqc0HMcKHEUO3xDWGfDzXZdIf0aWTU28NNoavo2IDwETLErubJhXaQzA+yacfyfjywLsf1dyve5jzdOffatdy0au0PIVEK1kieNn8V03aF2iEqRPEliQpJ0TdUhwRdExTCOAePHn4ywLVfAU1mg85TkFJbRv+LeGhGH0gEW+e7H9SWIpknDuy0q2ytNxl230m49rSbWs/h5hw6Hd1KcVbALC2AilRZKlbVW6xY/zScjF2VBaee4icL9FnjVRCSQJZpeiDlpbK/FPVA5l8nyyYHeGWBswQzK4k38A4Ch2NNGkd1nDWLNd+Yvszg5rwIDAQAB";
+        String base64EncodedPublicKey="YOUR_CODE";
         // compute your public key and store it in base64EncodedPublicKey
         // Create the helper, passing it our context and the public key to verify signatures with
         Log.d(TAG, "Creating IAB helper.");
